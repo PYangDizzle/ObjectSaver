@@ -1,0 +1,332 @@
+
+{
+    "Objects": [
+        {
+            "ID": 0,
+            "Type": "java.util.HashMap",
+            "Fields": [
+                {
+                    "Declared Type": "[Ljava.util.HashMap$Node;",
+                    "Declaring Class": "java.util.HashMap",
+                    "Name": "table",
+                    "ID": 1
+                },
+                {
+                    "Declared Type": "java.util.Set",
+                    "Declaring Class": "java.util.HashMap",
+                    "Name": "entrySet",
+                    "ID": 2
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.HashMap",
+                    "Name": "size",
+                    "Value": 2
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.HashMap",
+                    "Name": "modCount",
+                    "Value": 2
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.HashMap",
+                    "Name": "threshold",
+                    "Value": 12
+                },
+                {
+                    "Declared Type": "float",
+                    "Declaring Class": "java.util.HashMap",
+                    "Name": "loadFactor",
+                    "Value": 0.75
+                },
+                {
+                    "Declared Type": "java.util.Set",
+                    "Declaring Class": "java.util.AbstractMap",
+                    "Name": "keySet",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Collection",
+                    "Declaring Class": "java.util.AbstractMap",
+                    "Name": "values",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 1,
+            "Length": 16,
+            "Type": "[Ljava.util.HashMap$Node;",
+            "Elements": [
+                {
+                    "Index": 0,
+                    "Value": null
+                },
+                {
+                    "Index": 1,
+                    "Value": null
+                },
+                {
+                    "Index": 2,
+                    "Value": null
+                },
+                {
+                    "Index": 3,
+                    "Value": null
+                },
+                {
+                    "Index": 4,
+                    "ID": 3
+                },
+                {
+                    "Index": 5,
+                    "Value": null
+                },
+                {
+                    "Index": 6,
+                    "Value": null
+                },
+                {
+                    "Index": 7,
+                    "Value": null
+                },
+                {
+                    "Index": 8,
+                    "Value": null
+                },
+                {
+                    "Index": 9,
+                    "Value": null
+                },
+                {
+                    "Index": 10,
+                    "ID": 4
+                },
+                {
+                    "Index": 11,
+                    "Value": null
+                },
+                {
+                    "Index": 12,
+                    "Value": null
+                },
+                {
+                    "Index": 13,
+                    "Value": null
+                },
+                {
+                    "Index": 14,
+                    "Value": null
+                },
+                {
+                    "Index": 15,
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "java.util.HashMap$Node",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "hash",
+                    "Value": 1999030564
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "key",
+                    "ID": 5,
+                    "Literal": "Whatever"
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "value",
+                    "ID": 6
+                },
+                {
+                    "Declared Type": "java.util.HashMap$Node",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "next",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Literal": "Whatever",
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 7
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 1999027714
+                }
+            ]
+        },
+        {
+            "ID": 7,
+            "Length": 8,
+            "Type": "[C",
+            "Elements": [
+                {
+                    "Index": 0,
+                    "Value": "W"
+                },
+                {
+                    "Index": 1,
+                    "Value": "h"
+                },
+                {
+                    "Index": 2,
+                    "Value": "a"
+                },
+                {
+                    "Index": 3,
+                    "Value": "t"
+                },
+                {
+                    "Index": 4,
+                    "Value": "e"
+                },
+                {
+                    "Index": 5,
+                    "Value": "v"
+                },
+                {
+                    "Index": 6,
+                    "Value": "e"
+                },
+                {
+                    "Index": 7,
+                    "Value": "r"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "java.lang.Integer",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.Integer",
+                    "Name": "value",
+                    "Value": 3453454
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "java.util.HashMap$Node",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "hash",
+                    "Value": 82559034
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "key",
+                    "ID": 8,
+                    "Literal": "WHERO"
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "value",
+                    "ID": 9
+                },
+                {
+                    "Declared Type": "java.util.HashMap$Node",
+                    "Declaring Class": "java.util.HashMap$Node",
+                    "Name": "next",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 8,
+            "Literal": "WHERO",
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 10
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 82560209
+                }
+            ]
+        },
+        {
+            "ID": 10,
+            "Length": 5,
+            "Type": "[C",
+            "Elements": [
+                {
+                    "Index": 0,
+                    "Value": "W"
+                },
+                {
+                    "Index": 1,
+                    "Value": "H"
+                },
+                {
+                    "Index": 2,
+                    "Value": "E"
+                },
+                {
+                    "Index": 3,
+                    "Value": "R"
+                },
+                {
+                    "Index": 4,
+                    "Value": "O"
+                }
+            ]
+        },
+        {
+            "ID": 9,
+            "Type": "java.lang.Integer",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.Integer",
+                    "Name": "value",
+                    "Value": 1
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "java.util.HashMap$EntrySet",
+            "Fields": [
+                {
+                    "Declared Type": "java.util.HashMap",
+                    "Declaring Class": "java.util.HashMap$EntrySet",
+                    "Name": "this$0",
+                    "ID": 0
+                }
+            ]
+        }
+    ]
+}

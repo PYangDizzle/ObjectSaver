@@ -1,0 +1,4029 @@
+
+{
+    "Objects": [
+        {
+            "ID": 0,
+            "Type": "patrick.DUTObjectSaver",
+            "Fields": [
+                {
+                    "Declared Type": "java.util.List",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "listTest",
+                    "ID": 1
+                },
+                {
+                    "Declared Type": "[Ljava.lang.reflect.Field;",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "fields",
+                    "ID": 2
+                },
+                {
+                    "Declared Type": "java.lang.reflect.InvocationHandler",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "handler",
+                    "ID": 3
+                },
+                {
+                    "Declared Type": "patrick.DUTProxy",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "proxy",
+                    "ID": 4
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "proxyObj",
+                    "ID": 5
+                },
+                {
+                    "Declared Type": "patrick.DUTObjectSaver",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "pointer",
+                    "ID": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "test",
+                    "ID": 6
+                },
+                {
+                    "Declared Type": "java.lang.Integer",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "in",
+                    "ID": 7
+                },
+                {
+                    "Declared Type": "java.lang.Integer",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "in2",
+                    "ID": 8
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "patrick.DUTObjectSaver",
+                    "Name": "prim",
+                    "Value": 324
+                },
+                {
+                    "Declared Type": "java.lang.Integer",
+                    "Declaring Class": "patrick.SuperDuper",
+                    "Name": "in",
+                    "ID": 9
+                },
+                {
+                    "Declared Type": "patrick.CyclicReference",
+                    "Declaring Class": "patrick.SuperDuper",
+                    "Name": "cr",
+                    "ID": 10
+                }
+            ]
+        },
+        {
+            "ID": 1,
+            "Type": "java.util.LinkedList",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.LinkedList",
+                    "Name": "size",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.util.LinkedList$Node",
+                    "Declaring Class": "java.util.LinkedList",
+                    "Name": "first",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.LinkedList$Node",
+                    "Declaring Class": "java.util.LinkedList",
+                    "Name": "last",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.AbstractList",
+                    "Name": "modCount",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Length": 10,
+            "Type": "[Ljava.lang.reflect.Field;",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "ID": 11
+                },
+                {
+                    "Index": 1,
+                    "ID": 12
+                },
+                {
+                    "Index": 2,
+                    "ID": 13
+                },
+                {
+                    "Index": 3,
+                    "ID": 14
+                },
+                {
+                    "Index": 4,
+                    "ID": 15
+                },
+                {
+                    "Index": 5,
+                    "ID": 16
+                },
+                {
+                    "Index": 6,
+                    "ID": 17
+                },
+                {
+                    "Index": 7,
+                    "ID": 18
+                },
+                {
+                    "Index": 8,
+                    "ID": 19
+                },
+                {
+                    "Index": 9,
+                    "ID": 20
+                }
+            ]
+        },
+        {
+            "ID": 11,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 22
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.util.List",
+                    "ID": 23
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "ID": 24
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 25
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 21,
+            "Type Name": "patrick.DUTObjectSaver",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 22,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 26
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 26,
+            "Length": 8,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "l"
+                },
+                {
+                    "Index": 1,
+                    "Value": "i"
+                },
+                {
+                    "Index": 2,
+                    "Value": "s"
+                },
+                {
+                    "Index": 3,
+                    "Value": "t"
+                },
+                {
+                    "Index": 4,
+                    "Value": "T"
+                },
+                {
+                    "Index": 5,
+                    "Value": "e"
+                },
+                {
+                    "Index": 6,
+                    "Value": "s"
+                },
+                {
+                    "Index": 7,
+                    "Value": "t"
+                }
+            ]
+        },
+        {
+            "ID": 23,
+            "Type Name": "java.util.List",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 24,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 27
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 27,
+            "Length": 38,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "L"
+                },
+                {
+                    "Index": 1,
+                    "Value": "j"
+                },
+                {
+                    "Index": 2,
+                    "Value": "a"
+                },
+                {
+                    "Index": 3,
+                    "Value": "v"
+                },
+                {
+                    "Index": 4,
+                    "Value": "a"
+                },
+                {
+                    "Index": 5,
+                    "Value": "/"
+                },
+                {
+                    "Index": 6,
+                    "Value": "u"
+                },
+                {
+                    "Index": 7,
+                    "Value": "t"
+                },
+                {
+                    "Index": 8,
+                    "Value": "i"
+                },
+                {
+                    "Index": 9,
+                    "Value": "l"
+                },
+                {
+                    "Index": 10,
+                    "Value": "/"
+                },
+                {
+                    "Index": 11,
+                    "Value": "L"
+                },
+                {
+                    "Index": 12,
+                    "Value": "i"
+                },
+                {
+                    "Index": 13,
+                    "Value": "s"
+                },
+                {
+                    "Index": 14,
+                    "Value": "t"
+                },
+                {
+                    "Index": 15,
+                    "Value": "<"
+                },
+                {
+                    "Index": 16,
+                    "Value": "L"
+                },
+                {
+                    "Index": 17,
+                    "Value": "p"
+                },
+                {
+                    "Index": 18,
+                    "Value": "a"
+                },
+                {
+                    "Index": 19,
+                    "Value": "t"
+                },
+                {
+                    "Index": 20,
+                    "Value": "r"
+                },
+                {
+                    "Index": 21,
+                    "Value": "i"
+                },
+                {
+                    "Index": 22,
+                    "Value": "c"
+                },
+                {
+                    "Index": 23,
+                    "Value": "k"
+                },
+                {
+                    "Index": 24,
+                    "Value": "/"
+                },
+                {
+                    "Index": 25,
+                    "Value": "S"
+                },
+                {
+                    "Index": 26,
+                    "Value": "u"
+                },
+                {
+                    "Index": 27,
+                    "Value": "p"
+                },
+                {
+                    "Index": 28,
+                    "Value": "e"
+                },
+                {
+                    "Index": 29,
+                    "Value": "r"
+                },
+                {
+                    "Index": 30,
+                    "Value": "D"
+                },
+                {
+                    "Index": 31,
+                    "Value": "u"
+                },
+                {
+                    "Index": 32,
+                    "Value": "p"
+                },
+                {
+                    "Index": 33,
+                    "Value": "e"
+                },
+                {
+                    "Index": 34,
+                    "Value": "r"
+                },
+                {
+                    "Index": 35,
+                    "Value": ";"
+                },
+                {
+                    "Index": 36,
+                    "Value": ">"
+                },
+                {
+                    "Index": 37,
+                    "Value": ";"
+                }
+            ]
+        },
+        {
+            "ID": 25,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 22
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.util.List",
+                    "ID": 23
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "ID": 24
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 28
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 28,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 29
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 24
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 29,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 22
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.util.List",
+                    "ID": 23
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "ID": 24
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 28
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 25
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 12,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 1
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 30
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "[Ljava.lang.reflect.Field;",
+                    "ID": 31
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 32
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 30,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 33
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 33,
+            "Length": 6,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "f"
+                },
+                {
+                    "Index": 1,
+                    "Value": "i"
+                },
+                {
+                    "Index": 2,
+                    "Value": "e"
+                },
+                {
+                    "Index": 3,
+                    "Value": "l"
+                },
+                {
+                    "Index": 4,
+                    "Value": "d"
+                },
+                {
+                    "Index": 5,
+                    "Value": "s"
+                }
+            ]
+        },
+        {
+            "ID": 31,
+            "Type Name": "[Ljava.lang.reflect.Field;",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 32,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 1
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 30
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "[Ljava.lang.reflect.Field;",
+                    "ID": 31
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 34
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 34,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 35
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 28
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 35,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 1
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 30
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "[Ljava.lang.reflect.Field;",
+                    "ID": 31
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 34
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 32
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 13,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 2
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 36
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.reflect.InvocationHandler",
+                    "ID": 37
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 38
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 36,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 39
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 39,
+            "Length": 7,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "h"
+                },
+                {
+                    "Index": 1,
+                    "Value": "a"
+                },
+                {
+                    "Index": 2,
+                    "Value": "n"
+                },
+                {
+                    "Index": 3,
+                    "Value": "d"
+                },
+                {
+                    "Index": 4,
+                    "Value": "l"
+                },
+                {
+                    "Index": 5,
+                    "Value": "e"
+                },
+                {
+                    "Index": 6,
+                    "Value": "r"
+                }
+            ]
+        },
+        {
+            "ID": 37,
+            "Type Name": "java.lang.reflect.InvocationHandler",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 38,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 2
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 36
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.reflect.InvocationHandler",
+                    "ID": 37
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 40
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 40,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 41
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 32
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 41,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 2
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 36
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.reflect.InvocationHandler",
+                    "ID": 37
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 40
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 38
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 14,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 3
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 42
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "patrick.DUTProxy",
+                    "ID": 43
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 44
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 42,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 45
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 45,
+            "Length": 5,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "p"
+                },
+                {
+                    "Index": 1,
+                    "Value": "r"
+                },
+                {
+                    "Index": 2,
+                    "Value": "o"
+                },
+                {
+                    "Index": 3,
+                    "Value": "x"
+                },
+                {
+                    "Index": 4,
+                    "Value": "y"
+                }
+            ]
+        },
+        {
+            "ID": 43,
+            "Type Name": "patrick.DUTProxy",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 44,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 3
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 42
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "patrick.DUTProxy",
+                    "ID": 43
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 46
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 46,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 47
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 36
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 47,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 3
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 42
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "patrick.DUTProxy",
+                    "ID": 43
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 46
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 44
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 15,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 4
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 48
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Object",
+                    "ID": 49
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 50
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 48,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 51
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 51,
+            "Length": 8,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "p"
+                },
+                {
+                    "Index": 1,
+                    "Value": "r"
+                },
+                {
+                    "Index": 2,
+                    "Value": "o"
+                },
+                {
+                    "Index": 3,
+                    "Value": "x"
+                },
+                {
+                    "Index": 4,
+                    "Value": "y"
+                },
+                {
+                    "Index": 5,
+                    "Value": "O"
+                },
+                {
+                    "Index": 6,
+                    "Value": "b"
+                },
+                {
+                    "Index": 7,
+                    "Value": "j"
+                }
+            ]
+        },
+        {
+            "ID": 49,
+            "Type Name": "java.lang.Object",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 50,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 4
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 48
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Object",
+                    "ID": 49
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 52
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 52,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 53
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 40
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 53,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 4
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 48
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Object",
+                    "ID": 49
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 52
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 50
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 16,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 5
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 54
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 55
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 54,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 56
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 56,
+            "Length": 7,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "p"
+                },
+                {
+                    "Index": 1,
+                    "Value": "o"
+                },
+                {
+                    "Index": 2,
+                    "Value": "i"
+                },
+                {
+                    "Index": 3,
+                    "Value": "n"
+                },
+                {
+                    "Index": 4,
+                    "Value": "t"
+                },
+                {
+                    "Index": 5,
+                    "Value": "e"
+                },
+                {
+                    "Index": 6,
+                    "Value": "r"
+                }
+            ]
+        },
+        {
+            "ID": 55,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 5
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 54
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 57
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 57,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 58
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 44
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 58,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 5
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 54
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 57
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 55
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 17,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 6
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 59
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.String",
+                    "ID": 60
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 61
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 59,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 62
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 62,
+            "Length": 4,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "t"
+                },
+                {
+                    "Index": 1,
+                    "Value": "e"
+                },
+                {
+                    "Index": 2,
+                    "Value": "s"
+                },
+                {
+                    "Index": 3,
+                    "Value": "t"
+                }
+            ]
+        },
+        {
+            "ID": 60,
+            "Type Name": "java.lang.String",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 61,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 6
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 59
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.String",
+                    "ID": 60
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 63
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 63,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 64
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 48
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 64,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 6
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 59
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.String",
+                    "ID": 60
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 63
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 61
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 18,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 7
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 65
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Integer",
+                    "ID": 66
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 67
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 65,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 68
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 68,
+            "Length": 2,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "i"
+                },
+                {
+                    "Index": 1,
+                    "Value": "n"
+                }
+            ]
+        },
+        {
+            "ID": 66,
+            "Type Name": "java.lang.Integer",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 67,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 7
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 65
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Integer",
+                    "ID": 66
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 69
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 69,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 70
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 52
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 70,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 7
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 65
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Integer",
+                    "ID": 66
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 69
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 67
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 19,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 8
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 71
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Integer",
+                    "ID": 66
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 72
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 71,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 73
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 73,
+            "Length": 3,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "i"
+                },
+                {
+                    "Index": 1,
+                    "Value": "n"
+                },
+                {
+                    "Index": 2,
+                    "Value": "2"
+                }
+            ]
+        },
+        {
+            "ID": 72,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 8
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 71
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Integer",
+                    "ID": 66
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 74
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 74,
+            "Type": "sun.reflect.UnsafeObjectFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 75
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 56
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 75,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 8
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 71
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "java.lang.Integer",
+                    "ID": 66
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 74
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 72
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 20,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 9
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 76
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "int",
+                    "ID": 77
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 78
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 76,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 79
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 79,
+            "Length": 4,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "p"
+                },
+                {
+                    "Index": 1,
+                    "Value": "r"
+                },
+                {
+                    "Index": 2,
+                    "Value": "i"
+                },
+                {
+                    "Index": 3,
+                    "Value": "m"
+                }
+            ]
+        },
+        {
+            "ID": 77,
+            "Type Name": "int",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 78,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 9
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 76
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "int",
+                    "ID": 77
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 80
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 80,
+            "Type": "sun.reflect.UnsafeIntegerFieldAccessorImpl",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "field",
+                    "ID": 81
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "fieldOffset",
+                    "Value": 20
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "sun.reflect.UnsafeFieldAccessorImpl",
+                    "Name": "isFinal",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "ID": 81,
+            "Type": "java.lang.reflect.Field",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "clazz",
+                    "Type Name": "patrick.DUTObjectSaver",
+                    "ID": 21
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "slot",
+                    "Value": 9
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "name",
+                    "ID": 76
+                },
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "type",
+                    "Type Name": "int",
+                    "ID": 77
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "modifiers",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.FieldRepository",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "fieldAccessor",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.FieldAccessor",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "overrideFieldAccessor",
+                    "ID": 80
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Field",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "root",
+                    "ID": 78
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Field",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "patrick.DUTObjectSaver$1",
+            "Fields": [
+                {
+                    "Declared Type": "patrick.DUTObjectSaver",
+                    "Declaring Class": "patrick.DUTObjectSaver$1",
+                    "Name": "this$0",
+                    "ID": 0
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "patrick.DUTObjectSaver$2",
+            "Fields": [
+                {
+                    "Declared Type": "patrick.DUTObjectSaver",
+                    "Declaring Class": "patrick.DUTObjectSaver$2",
+                    "Name": "this$0",
+                    "ID": 0
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Type": "com.sun.proxy.$Proxy0",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.InvocationHandler",
+                    "Declaring Class": "java.lang.reflect.Proxy",
+                    "Name": "h",
+                    "ID": 3
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 82
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "ID": 82,
+            "Length": 18,
+            "Type": "[C",
+            "Fields": [
+                {
+                    "Index": 0,
+                    "Value": "W"
+                },
+                {
+                    "Index": 1,
+                    "Value": "h"
+                },
+                {
+                    "Index": 2,
+                    "Value": "a"
+                },
+                {
+                    "Index": 3,
+                    "Value": "t"
+                },
+                {
+                    "Index": 4,
+                    "Value": " "
+                },
+                {
+                    "Index": 5,
+                    "Value": "w"
+                },
+                {
+                    "Index": 6,
+                    "Value": "o"
+                },
+                {
+                    "Index": 7,
+                    "Value": "u"
+                },
+                {
+                    "Index": 8,
+                    "Value": "l"
+                },
+                {
+                    "Index": 9,
+                    "Value": "d"
+                },
+                {
+                    "Index": 10,
+                    "Value": " "
+                },
+                {
+                    "Index": 11,
+                    "Value": "t"
+                },
+                {
+                    "Index": 12,
+                    "Value": "h"
+                },
+                {
+                    "Index": 13,
+                    "Value": "i"
+                },
+                {
+                    "Index": 14,
+                    "Value": "s"
+                },
+                {
+                    "Index": 15,
+                    "Value": " "
+                },
+                {
+                    "Index": 16,
+                    "Value": "d"
+                },
+                {
+                    "Index": 17,
+                    "Value": "o"
+                }
+            ]
+        },
+        {
+            "ID": 7,
+            "Type": "java.lang.Integer",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.Integer",
+                    "Name": "value",
+                    "Value": 1
+                }
+            ]
+        },
+        {
+            "ID": 8,
+            "Type": "java.lang.Integer",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.Integer",
+                    "Name": "value",
+                    "Value": 1
+                }
+            ]
+        },
+        {
+            "ID": 9,
+            "Type": "java.lang.Integer",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.Integer",
+                    "Name": "value",
+                    "Value": 321
+                }
+            ]
+        },
+        {
+            "ID": 10,
+            "Type": "patrick.CyclicReference",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "patrick.CyclicReference",
+                    "Name": "obj",
+                    "ID": 0
+                }
+            ]
+        }
+    ]
+}

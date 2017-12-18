@@ -1,0 +1,439 @@
+
+{
+    "Objects": [
+        {
+            "ID": 0,
+            "Type": "org.objenesis.ObjenesisStd",
+            "Fields": [
+                {
+                    "Declared Type": "org.objenesis.strategy.InstantiatorStrategy",
+                    "Declaring Class": "org.objenesis.ObjenesisBase",
+                    "Name": "strategy",
+                    "ID": 1
+                },
+                {
+                    "Declared Type": "java.util.concurrent.ConcurrentHashMap",
+                    "Declaring Class": "org.objenesis.ObjenesisBase",
+                    "Name": "cache",
+                    "ID": 2
+                }
+            ]
+        },
+        {
+            "ID": 1,
+            "Type": "org.objenesis.strategy.StdInstantiatorStrategy",
+            "Fields": [
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "java.util.concurrent.ConcurrentHashMap",
+            "Fields": [
+                {
+                    "Declared Type": "[Ljava.util.concurrent.ConcurrentHashMap$Node;",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "table",
+                    "ID": 3
+                },
+                {
+                    "Declared Type": "[Ljava.util.concurrent.ConcurrentHashMap$Node;",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "nextTable",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "long",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "baseCount",
+                    "Value": 1
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "sizeCtl",
+                    "Value": 12
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "transferIndex",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "cellsBusy",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "[Ljava.util.concurrent.ConcurrentHashMap$CounterCell;",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "counterCells",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.concurrent.ConcurrentHashMap$KeySetView",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "keySet",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.concurrent.ConcurrentHashMap$ValuesView",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "values",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.concurrent.ConcurrentHashMap$EntrySetView",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap",
+                    "Name": "entrySet",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Set",
+                    "Declaring Class": "java.util.AbstractMap",
+                    "Name": "keySet",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Collection",
+                    "Declaring Class": "java.util.AbstractMap",
+                    "Name": "values",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Length": 16,
+            "Type": "[Ljava.util.concurrent.ConcurrentHashMap$Node;",
+            "Elements": [
+                {
+                    "Index": 0,
+                    "Value": null
+                },
+                {
+                    "Index": 1,
+                    "Value": null
+                },
+                {
+                    "Index": 2,
+                    "Value": null
+                },
+                {
+                    "Index": 3,
+                    "Value": null
+                },
+                {
+                    "Index": 4,
+                    "Value": null
+                },
+                {
+                    "Index": 5,
+                    "Value": null
+                },
+                {
+                    "Index": 6,
+                    "Value": null
+                },
+                {
+                    "Index": 7,
+                    "Value": null
+                },
+                {
+                    "Index": 8,
+                    "Value": null
+                },
+                {
+                    "Index": 9,
+                    "Value": null
+                },
+                {
+                    "Index": 10,
+                    "Value": null
+                },
+                {
+                    "Index": 11,
+                    "ID": 4
+                },
+                {
+                    "Index": 12,
+                    "Value": null
+                },
+                {
+                    "Index": 13,
+                    "Value": null
+                },
+                {
+                    "Index": 14,
+                    "Value": null
+                },
+                {
+                    "Index": 15,
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "java.util.concurrent.ConcurrentHashMap$Node",
+            "Fields": [
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap$Node",
+                    "Name": "hash",
+                    "Value": 1195274587
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap$Node",
+                    "Name": "key",
+                    "ID": 5,
+                    "Literal": "java.lang.String"
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap$Node",
+                    "Name": "val",
+                    "ID": 6
+                },
+                {
+                    "Declared Type": "java.util.concurrent.ConcurrentHashMap$Node",
+                    "Declaring Class": "java.util.concurrent.ConcurrentHashMap$Node",
+                    "Name": "next",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "Literal": "java.lang.String",
+            "Type": "java.lang.String",
+            "Fields": [
+                {
+                    "Declared Type": "[C",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "value",
+                    "ID": 7
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.String",
+                    "Name": "hash",
+                    "Value": 1195259493
+                }
+            ]
+        },
+        {
+            "ID": 7,
+            "Length": 16,
+            "Type": "[C",
+            "Elements": [
+                {
+                    "Index": 0,
+                    "Value": "j"
+                },
+                {
+                    "Index": 1,
+                    "Value": "a"
+                },
+                {
+                    "Index": 2,
+                    "Value": "v"
+                },
+                {
+                    "Index": 3,
+                    "Value": "a"
+                },
+                {
+                    "Index": 4,
+                    "Value": "."
+                },
+                {
+                    "Index": 5,
+                    "Value": "l"
+                },
+                {
+                    "Index": 6,
+                    "Value": "a"
+                },
+                {
+                    "Index": 7,
+                    "Value": "n"
+                },
+                {
+                    "Index": 8,
+                    "Value": "g"
+                },
+                {
+                    "Index": 9,
+                    "Value": "."
+                },
+                {
+                    "Index": 10,
+                    "Value": "S"
+                },
+                {
+                    "Index": 11,
+                    "Value": "t"
+                },
+                {
+                    "Index": 12,
+                    "Value": "r"
+                },
+                {
+                    "Index": 13,
+                    "Value": "i"
+                },
+                {
+                    "Index": 14,
+                    "Value": "n"
+                },
+                {
+                    "Index": 15,
+                    "Value": "g"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Type": "org.objenesis.instantiator.sun.SunReflectionFactoryInstantiator",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.reflect.Constructor",
+                    "Declaring Class": "org.objenesis.instantiator.sun.SunReflectionFactoryInstantiator",
+                    "Name": "mungedConstructor",
+                    "ID": 8
+                }
+            ]
+        },
+        {
+            "ID": 8,
+            "Type": "java.lang.reflect.Constructor",
+            "Fields": [
+                {
+                    "Declared Type": "java.lang.Class",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "clazz",
+                    "Type Name": "java.lang.Object",
+                    "ID": 9
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "slot",
+                    "Value": 0
+                },
+                {
+                    "Declared Type": "[Ljava.lang.Class;",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "parameterTypes",
+                    "ID": 10
+                },
+                {
+                    "Declared Type": "[Ljava.lang.Class;",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "exceptionTypes",
+                    "ID": 11
+                },
+                {
+                    "Declared Type": "int",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "modifiers",
+                    "Value": 1
+                },
+                {
+                    "Declared Type": "java.lang.String",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "signature",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.generics.repository.ConstructorRepository",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "genericInfo",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "annotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "[B",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "parameterAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "sun.reflect.ConstructorAccessor",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "constructorAccessor",
+                    "ID": 12
+                },
+                {
+                    "Declared Type": "java.lang.reflect.Constructor",
+                    "Declaring Class": "java.lang.reflect.Constructor",
+                    "Name": "root",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.Executable",
+                    "Name": "hasRealParameterData",
+                    "Value": false
+                },
+                {
+                    "Declared Type": "[Ljava.lang.reflect.Parameter;",
+                    "Declaring Class": "java.lang.reflect.Executable",
+                    "Name": "parameters",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "java.util.Map",
+                    "Declaring Class": "java.lang.reflect.Executable",
+                    "Name": "declaredAnnotations",
+                    "Value": null
+                },
+                {
+                    "Declared Type": "boolean",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "override",
+                    "Value": true
+                },
+                {
+                    "Declared Type": "java.lang.Object",
+                    "Declaring Class": "java.lang.reflect.AccessibleObject",
+                    "Name": "securityCheckCache",
+                    "Value": null
+                }
+            ]
+        },
+        {
+            "ID": 9,
+            "Type Name": "java.lang.Object",
+            "Type": "java.lang.Class"
+        },
+        {
+            "ID": 10,
+            "Length": 0,
+            "Type": "[Ljava.lang.Class;",
+            "Elements": [
+            ]
+        },
+        {
+            "ID": 11,
+            "Length": 0,
+            "Type": "[Ljava.lang.Class;",
+            "Elements": [
+            ]
+        },
+        {
+            "ID": 12,
+            "Type": "sun.reflect.GeneratedSerializationConstructorAccessor2",
+            "Fields": [
+            ]
+        }
+    ]
+}
