@@ -26,6 +26,7 @@ import java.util.stream.Collectors;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.objenesis.Objenesis;
 import org.objenesis.ObjenesisStd;
@@ -41,8 +42,10 @@ public class ObjectSaverTestCase {
 		os = new ObjectSaver();
 		// Test Purpose
 		os.setCaller(this);
+		os.setVerbose(true);
 	}
 	
+	@Ignore
 	@Test
 	public void testWithObjenesis() {
 		try {

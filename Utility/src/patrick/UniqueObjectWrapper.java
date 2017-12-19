@@ -1,9 +1,13 @@
 package patrick;
 
+import java.util.Arrays;
+
 public class UniqueObjectWrapper {
 	
 	public Object obj;
 	public int id = -1;
+	
+	public boolean verbose = false;
 	
 	// Factory
 	public UniqueObjectWrapper() {
@@ -11,6 +15,9 @@ public class UniqueObjectWrapper {
 	
 	public UniqueObjectWrapper wrap(Object obj) {
 		id++;
+		if (verbose) {
+			System.out.println("ID: " + id + ", Obj: " + obj);
+		}
 		return new UniqueObjectWrapper(obj, id);
 	}
 	

@@ -23,6 +23,10 @@ public class ObjectSaver {
 		saver.caller = obj;
 	}
 	
+	public void setVerbose(boolean truth) {
+		saver.setVerbose(truth);
+	}
+	
 	public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException {
 		
 	}

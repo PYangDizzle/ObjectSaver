@@ -18,6 +18,7 @@ import javax.json.JsonValue;
 
 public class Saver {
 	
+	// Test Purpose
 	public Object caller;
 	
 	public static void main(String[] args) throws IllegalArgumentException, IllegalAccessException, Exception {
@@ -25,6 +26,7 @@ public class Saver {
 		DUTObjectSaver dut = new DUTObjectSaver();
 		
 		Saver save = new Saver();
+		save.setVerbose(true);
 		String result = save.toJSON(dut);
 		System.out.println(result);
 		
@@ -32,6 +34,10 @@ public class Saver {
 //		System.out.println(type.getClass().getName());
 //		System.out.println(type.getClass().toString());
 //		System.out.println(type.getClass().toGenericString());
+	}
+	
+	public void setVerbose(boolean truth) {
+		uow.verbose = truth;
 	}
 
 	private List<UniqueObjectWrapper> cachedUOWs = new LinkedList<>();
@@ -141,16 +147,17 @@ public class Saver {
 			}
 			else {
 				fieldObj = field.get(obj);
+			}
+
+			if (fieldObj != null) {
 				if (type.equals(Class.class)) {
 					fieldBuilder.add("Type Name", ((Class<?>)field.get(obj)).getName());
 				}
-			}
-			
-
-			if (fieldObj != null) {
+				int id = -1;
 				SEARCH_CACHE: {
 					for (UniqueObjectWrapper cachedUOW : cachedUOWs) {
 						if (cachedUOW.equals(fieldObj)) {
+							id = cachedUOW.id;
 							fieldBuilder.add("ID", cachedUOW.id);
 							break SEARCH_CACHE;
 						}
@@ -158,9 +165,11 @@ public class Saver {
 
 					UniqueObjectWrapper fieldObjWrapped = uow.wrap(fieldObj);
 					objsToRecurse.add(fieldObjWrapped);
-					fieldBuilder.add("ID", fieldObjWrapped.id);
+					id = fieldObjWrapped.id;
+					fieldBuilder.add("ID", id);
 					cachedUOWs.add(fieldObjWrapped);
 				}
+				
 				if (fieldObj instanceof String) {
 					fieldBuilder.add("Literal", fieldObj.toString());
 				}
