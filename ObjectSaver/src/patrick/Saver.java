@@ -151,7 +151,7 @@ public class Saver {
 
 			if (fieldObj != null) {
 				if (type.equals(Class.class)) {
-					fieldBuilder.add("Type Name", ((Class<?>)field.get(obj)).getName());
+					fieldBuilder.add("Type Name", ((Class<?>)fieldObj).getName());
 				}
 				int id = -1;
 				SEARCH_CACHE: {

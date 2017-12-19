@@ -16,7 +16,14 @@ public class UniqueObjectWrapper {
 	public UniqueObjectWrapper wrap(Object obj) {
 		id++;
 		if (verbose) {
-			System.out.println("ID: " + id + ", Obj: " + obj);
+			String text = "ID: " + id;
+			try {
+				text += ", Obj: " + obj;
+			}
+			catch (Exception e) {
+				// do nothing
+			}
+			System.out.println(text);
 		}
 		return new UniqueObjectWrapper(obj, id);
 	}
