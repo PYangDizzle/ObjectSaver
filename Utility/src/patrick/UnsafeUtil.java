@@ -1,11 +1,15 @@
 package patrick;
 
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
 
 import sun.misc.Unsafe;
 
 public enum UnsafeUtil {
 	INSTANCE;
+	
+	public boolean saferMode = false;
 	
 	private Unsafe unsafe;
 	
@@ -21,6 +25,21 @@ public enum UnsafeUtil {
 	
 	@SuppressWarnings("unchecked")
 	public <T> T allocateInstance(Class<T> type) {
+		if (saferMode) {
+			if (type.isInterface() || Modifier.isAbstract(type.getModifiers())) {
+				return null;
+			}
+			try {
+				// try if no-args constructor exists
+				Constructor<T> constr = type.getDeclaredConstructor();
+				constr.setAccessible(true);
+				return constr.newInstance();
+			}
+			catch (Exception e) {
+				// do nothing
+				// default back to unsafe
+			}
+		}
 		try {
 			return (T)unsafe.allocateInstance(type);
 		} catch (Exception e) {
